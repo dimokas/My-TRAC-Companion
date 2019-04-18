@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarThemeWhite" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+
+    <style name="DefaultTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="mainColor">@color/colorBlue</item>
+        <item name="btnMainColor">@color/colorOrange</item>
+        <item name="android:textViewStyle">@style/DefaultTextViewStyle</item>
+        <item name="android:editTextStyle">@style/DefaultEditTextStyle</item>
+        <item name="graphHeaderIcon">@drawable/graph_header</item>
+        <item name="graphMainbgFixedIcon">@drawable/graph_mainbg_fixed</item>
+        <item name="graphDrawerbgFixedIcon">@drawable/graph_drawerbg_fixed</item>
+        <item name="dialogAddIcon">@drawable/ic_dialog_add</item>
+        <item name="dialogFavState1Icon">@drawable/ic_dialog_fav_state1</item>
+        <item name="dialogFavState2Icon">@drawable/ic_dialog_fav_state2</item>
+        <item name="fieldUserIcon">@drawable/field_user</item>
+        <item name="fieldPassIcon">@drawable/field_pass</item>
+        <item name="btnWideIcon">@drawable/btn_orange_wide</item>
+        <item name="titleLarge">20sp</item>
+        <item name="titleMedium">18sp</item>
+        <item name="titleSmall">16sp</item>
+        <item name="textLarge">18sp</item>
+        <item name="textMedium">16sp</item>
+        <item name="textSmall">14sp</item>
+        <item name="btnTextLarge">18sp</item>
+        <item name="btnTextMedium">16sp</item>
+        <item name="btnTextSmall">14sp</item>
+        <item name="favoritesAddIconDimension">25dp</item>
+        <item name="favoriteIconDimension">25dp</item>
+        <item name="favoriteIconLargeDimension">25dp</item>
+    </style>
+    <style name="DefaultTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="DefaultEditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="LowVisionTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="mainColor">@color/colorLowVision</item>
+        <item name="btnMainColor">@color/colorLowVision</item>
+        <item name="android:textViewStyle">@style/LowVisionTextViewStyle</item>
+        <item name="editTextStyle">@style/LowVisionEditTextStyle</item>
+        <item name="graphHeaderIcon">@drawable/graph_header_low_vision</item>
+        <item name="graphMainbgFixedIcon">@drawable/graph_mainbg_fixed_low_vision</item>
+        <item name="graphDrawerbgFixedIcon">@drawable/graph_drawerbg_fixed_low_vision</item>
+        <item name="dialogAddIcon">@drawable/ic_dialog_add_low_vision</item>
+        <item name="dialogFavState1Icon">@drawable/ic_dialog_fav_state1_low_vision</item>
+        <item name="dialogFavState2Icon">@drawable/ic_dialog_fav_state2_low_vision</item>
+        <item name="fieldUserIcon">@drawable/field_user_low_vision</item>
+        <item name="fieldPassIcon">@drawable/field_pass_low_vision</item>
+        <item name="btnWideIcon">@drawable/btn_low_vision_wide</item>
+        <item name="titleLarge">22sp</item>
+        <item name="titleMedium">20sp</item>
+        <item name="titleSmall">18sp</item>
+        <item name="textLarge">20sp</item>
+        <item name="textMedium">18sp</item>
+        <item name="textSmall">16sp</item>
+        <item name="btnTextLarge">20sp</item>
+        <item name="btnTextMedium">18sp</item>
+        <item name="btnTextSmall">16sp</item>
+        <item name="favoritesAddIconDimension">30dp</item>
+        <item name="favoriteIconDimension">30dp</item>
+        <item name="favoriteIconLargeDimension">35dp</item>
+    </style>
+    <style name="LowVisionTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorLowVision</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="LowVisionEditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/colorLowVision</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>

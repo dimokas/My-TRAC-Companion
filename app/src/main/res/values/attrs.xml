@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="graphHeaderIcon" format="reference" />
+    <attr name="graphMainbgFixedIcon" format="reference" />
+    <attr name="graphDrawerbgFixedIcon" format="reference" />
+    <attr name="dialogAddIcon" format="reference" />
+    <attr name="dialogFavState1Icon" format="reference" />
+    <attr name="dialogFavState2Icon" format="reference" />
+    <attr name="favoritesAddIconDimension" format="reference|dimension" />
+    <attr name="favoriteIconDimension" format="reference|dimension" />
+    <attr name="favoriteIconLargeDimension" format="reference|dimension" />
+    <attr name="fieldUserIcon" format="reference" />
+    <attr name="fieldPassIcon" format="reference" />
+    <attr name="btnWideIcon" format="reference" />
+    <attr name="titleSmall" format="reference|dimension" />
+    <attr name="titleMedium" format="reference|dimension" />
+    <attr name="titleLarge" format="reference|dimension" />
+    <attr name="textSmall" format="reference|dimension" />
+    <attr name="textMedium" format="reference|dimension" />
+    <attr name="textLarge" format="reference|dimension" />
+    <attr name="btnTextSmall" format="reference|dimension" />
+    <attr name="btnTextMedium" format="reference|dimension" />
+    <attr name="btnTextLarge" format="reference|dimension" />
+    <attr name="mainColor" format="reference" />
+    <attr name="btnMainColor" format="reference" />
+</resources>

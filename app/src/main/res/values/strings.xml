@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">MyTrac</string>
+
+    <string name="twitter_api_key">qqpAk1py2js2RXHy4MtzpX230</string>
+    <string name="twitter_api_secret">iqvBtuFvkpoD8L3xv7TBVn6eSDrKMsLkS6QxUZkeXNF9rp1XtM</string>
+
+    <string name="google_api_key">AIzaSyBypKFwBBFnl5mldoCr_FNdhuvMKlYz46A</string>
+
+    <string name="home">Home</string>
+    <string name="sign_in_with_twitter">Sign in with Twitter</string>
+    <string name="or">Or</string>
+    <string name="use_your_email_address">Use your e-mail address</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in">Log in</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="wrong_email_address_or_password">Wrong e-mail address or password</string>
+    <string name="current_trip">Current Trip</string>
+    <string name="favorites">Favorites</string>
+    <string name="where_do_you_want_to_go">Where do you want to go?</string>
+    <string name="tap_to_set">Tap to set</string>
+    <string name="type_an_address_or_location">Type an address or location</string>
+    <string name="choose_location">Choose location</string>
+    <string name="choose_on_map">Choose on Map</string>
+    <string name="history">History</string>
+    <string name="choose">Choose</string>
+    <string name="locating_address">Locating Address...</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="cant_get_enough_of_this_place">Can\'t get enough of this place?</string>
+    <string name="add_location_to_favorites">Add this location to your favourite ones to get 1-tap directions during future trips</string>
+    <string name="add_favorite_location">Add a location to your favourite ones</string>
+    <string name="add_specific_favorite_location">Add location to your favourite ones</string>
+    <string name="add">Add</string>
+    <string name="location_added_to_favorites">Location added to Favourites</string>
+    <string name="search_for_address_station_location_to_receive_directions">You can search for an address, a station or a general location to receive step by step directions.</string>
+    <string name="open_navigation_drawer">Open navigation drawer</string>
+    <string name="close_navigation_drawer">Close navigation drawer</string>
+
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
