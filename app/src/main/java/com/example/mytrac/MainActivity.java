@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences sharedPrefs = getSharedPreferences("mytrac.user.settings", MODE_PRIVATE);
         userCategory = sharedPrefs.getInt("userCategory", 0);
         uID = sharedPrefs.getString("uID", null);
+        Log.i("MainActivity","uID="+uID);
 
         if (userCategory == Constants.DEFAULT_USER)
             setTheme(R.style.DefaultTheme);
