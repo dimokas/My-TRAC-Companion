@@ -15,7 +15,7 @@
             android:id="@+id/my_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?graphHeaderIcon"
+            android:background="?graph_header"
             android:elevation="4dp"
             android:theme="@style/ToolbarThemeWhite"
             app:contentInsetRight="16dp"
@@ -77,7 +77,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="?graphMainbgFixedIcon"/>
+                android:background="?graph_mainbg"/>
 <!-- android:background="@drawable/graph_mainbg_fixed" -->
             <TextView
                 android:id="@+id/searchLocationTv"
@@ -177,7 +177,7 @@
                             android:layout_width="?favoritesAddIconDimension"
                             android:layout_height="?favoritesAddIconDimension"
                             android:contentDescription="@string/add_favorite_location"
-                            android:background="?dialogAddIcon"
+                            android:background="?icon_add"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"

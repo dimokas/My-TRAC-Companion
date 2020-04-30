@@ -70,6 +70,8 @@ public class MainActivity extends AppCompatActivity {
             setTheme(R.style.DefaultTheme);
         else if (userCategory == Constants.LOW_VISION_USER)
             setTheme(R.style.LowVisionTheme);
+        else if (userCategory == Constants.HIGH_CONTRAST_USER)
+            setTheme(R.style.HighContrastTheme);
 
         super.onCreate(savedInstanceState);
         mainActivity = this;

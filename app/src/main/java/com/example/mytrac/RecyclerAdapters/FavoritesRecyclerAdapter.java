@@ -79,6 +79,9 @@ public class FavoritesRecyclerAdapter extends RecyclerView.Adapter<FavoritesRecy
                 } else if (userCategory == Constants.DEFAULT_USER) {
                     holder.icon.setBackgroundResource(R.drawable.ic_dialog_home_off);
                     holder.address.setTextColor(ResourcesCompat.getColor(holder.itemView.getContext().getResources(), R.color.colorGrey, null));
+                } else if (userCategory == Constants.HIGH_CONTRAST_USER) {
+                    holder.icon.setBackgroundResource(R.drawable.ic_dialog_home_off);
+                    holder.address.setTextColor(ResourcesCompat.getColor(holder.itemView.getContext().getResources(), R.color.colorBlack, null));
                 }
 
 
@@ -91,11 +94,15 @@ public class FavoritesRecyclerAdapter extends RecyclerView.Adapter<FavoritesRecy
             }
             else {
                 if (userCategory == Constants.LOW_VISION_USER) {
-                    holder.icon.setBackgroundResource(R.drawable.ic_dialog_home_on_low_vision);
+                    holder.icon.setBackgroundResource(R.drawable.ic_dialog_home_on_lowvis);
                 } else if (userCategory == Constants.DEFAULT_USER) {
                     holder.icon.setBackgroundResource(R.drawable.ic_dialog_home_on);
                     holder.address.setTextColor(ResourcesCompat.getColor(holder.itemView.getContext().getResources(), R.color.colorBlack, null));
+                } else if (userCategory == Constants.HIGH_CONTRAST_USER) {
+                    holder.icon.setBackgroundResource(R.drawable.ic_dialog_home_on_hicontr);
+                    holder.address.setTextColor(ResourcesCompat.getColor(holder.itemView.getContext().getResources(), R.color.colorBlack, null));
                 }
+
 
                 //holder.icon.setBackgroundResource(R.drawable.ic_dialog_home_on);
                 holder.address.setTypeface(null, Typeface.NORMAL);
@@ -114,6 +121,9 @@ public class FavoritesRecyclerAdapter extends RecyclerView.Adapter<FavoritesRecy
                 } else if (userCategory == Constants.DEFAULT_USER) {
                     holder.icon.setBackgroundResource(R.drawable.ic_dialog_work_off);
                     holder.address.setTextColor(ResourcesCompat.getColor(holder.itemView.getContext().getResources(), R.color.colorGrey, null));
+                } else if (userCategory == Constants.HIGH_CONTRAST_USER) {
+                    holder.icon.setBackgroundResource(R.drawable.ic_dialog_work_off);
+                    holder.address.setTextColor(ResourcesCompat.getColor(holder.itemView.getContext().getResources(), R.color.colorBlack, null));
                 }
 
                 if (holder.address.getTypeface() != null) {
@@ -125,9 +135,12 @@ public class FavoritesRecyclerAdapter extends RecyclerView.Adapter<FavoritesRecy
             }
             else {
                 if (userCategory == Constants.LOW_VISION_USER) {
-                    holder.icon.setBackgroundResource(R.drawable.ic_dialog_work_on_low_vision);
+                    holder.icon.setBackgroundResource(R.drawable.ic_dialog_work_on_lowvis);
                 } else if (userCategory == Constants.DEFAULT_USER) {
                     holder.icon.setBackgroundResource(R.drawable.ic_dialog_work_on);
+                    holder.address.setTextColor(ResourcesCompat.getColor(holder.itemView.getContext().getResources(), R.color.colorBlack, null));
+                } else if (userCategory == Constants.HIGH_CONTRAST_USER) {
+                    holder.icon.setBackgroundResource(R.drawable.ic_dialog_work_on_hicontr);
                     holder.address.setTextColor(ResourcesCompat.getColor(holder.itemView.getContext().getResources(), R.color.colorBlack, null));
                 }
 
@@ -139,9 +152,12 @@ public class FavoritesRecyclerAdapter extends RecyclerView.Adapter<FavoritesRecy
         }
         else {
             if (userCategory == Constants.LOW_VISION_USER) {
-                holder.icon.setBackgroundResource(R.drawable.ic_dialog_fav_on_low_vision);
+                holder.icon.setBackgroundResource(R.drawable.ic_dialog_fav_on_lowvis);
             } else if (userCategory == Constants.DEFAULT_USER) {
                 holder.icon.setBackgroundResource(R.drawable.ic_dialog_fav_on);
+                holder.address.setTextColor(ResourcesCompat.getColor(holder.itemView.getContext().getResources(), R.color.colorBlack, null));
+            } else if (userCategory == Constants.HIGH_CONTRAST_USER) {
+                holder.icon.setBackgroundResource(R.drawable.ic_dialog_fav_on_hicontr);
                 holder.address.setTextColor(ResourcesCompat.getColor(holder.itemView.getContext().getResources(), R.color.colorBlack, null));
             }
             //holder.icon.setBackgroundResource(R.drawable.ic_dialog_fav_on);

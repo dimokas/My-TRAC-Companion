@@ -98,29 +98,37 @@ public class HistoryRecyclerAdapter extends RecyclerView.Adapter<HistoryRecycler
         int userCategory = sharedPrefs.getInt("userCategory", 0);
         if (historyList.get(position).getState() == PastDestination.State.HOME) {
             if (userCategory == Constants.LOW_VISION_USER) {
-                holder.icon.setBackgroundResource(R.drawable.ic_dialog_home_on_low_vision);
+                holder.icon.setBackgroundResource(R.drawable.ic_dialog_home_on_lowvis);
             } else if (userCategory == Constants.DEFAULT_USER) {
                 holder.icon.setBackgroundResource(R.drawable.ic_dialog_home_on);
+            } else if (userCategory == Constants.HIGH_CONTRAST_USER) {
+                holder.icon.setBackgroundResource(R.drawable.ic_dialog_home_on_hicontr);
             }
         }
         else if (historyList.get(position).getState() == PastDestination.State.WORK) {
             if (userCategory == Constants.LOW_VISION_USER) {
-                holder.icon.setBackgroundResource(R.drawable.ic_dialog_work_on_low_vision);
+                holder.icon.setBackgroundResource(R.drawable.ic_dialog_work_on_lowvis);
             } else if (userCategory == Constants.DEFAULT_USER) {
                 holder.icon.setBackgroundResource(R.drawable.ic_dialog_work_on);
+            } else if (userCategory == Constants.HIGH_CONTRAST_USER) {
+                holder.icon.setBackgroundResource(R.drawable.ic_dialog_work_on_hicontr);
             }
         }
         else if (historyList.get(position).getState() == PastDestination.State.FAVORITE) {
             if (userCategory == Constants.LOW_VISION_USER) {
-                holder.icon.setBackgroundResource(R.drawable.ic_dialog_fav_on_low_vision);
+                holder.icon.setBackgroundResource(R.drawable.ic_dialog_fav_on_lowvis);
             } else if (userCategory == Constants.DEFAULT_USER) {
                 holder.icon.setBackgroundResource(R.drawable.ic_dialog_fav_on);
+            } else if (userCategory == Constants.HIGH_CONTRAST_USER) {
+                holder.icon.setBackgroundResource(R.drawable.ic_dialog_fav_on_hicontr);
             }
         }
         else {
             if (userCategory == Constants.LOW_VISION_USER) {
                 holder.icon.setBackgroundResource(R.drawable.ic_dialog_fav_off);
             } else if (userCategory == Constants.DEFAULT_USER) {
+                holder.icon.setBackgroundResource(R.drawable.ic_dialog_fav_off);
+            } else if (userCategory == Constants.HIGH_CONTRAST_USER) {
                 holder.icon.setBackgroundResource(R.drawable.ic_dialog_fav_off);
             }
             holder.itemLayout.setOnClickListener(listener);

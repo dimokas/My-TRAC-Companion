@@ -1,26 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr name="graphHeaderIcon" format="reference" />
-    <attr name="graphMainbgFixedIcon" format="reference" />
-    <attr name="graphDrawerbgFixedIcon" format="reference" />
-    <attr name="dialogAddIcon" format="reference" />
-    <attr name="dialogFavState1Icon" format="reference" />
-    <attr name="dialogFavState2Icon" format="reference" />
+    <attr name="btn_footer_off" format="reference" />
+    <attr name="btn_footer_on" format="reference" />
+    <attr name="btn_grey" format="reference" />
+    <attr name="btn_grey_wide" format="reference" />
+    <attr name="btn_long2" format="reference" />
+    <attr name="btn_next" format="reference" />
+    <attr name="btn_next_void" format="reference" />
+    <attr name="btn_orange" format="reference" />
+    <attr name="btn_radio_off" format="reference" />
+    <attr name="btn_radio_on" format="reference" />
+    <attr name="btn_short2" format="reference" />
+    <attr name="btn_switch_off" format="reference" />
+    <attr name="btn_switch_on" format="reference" />
+    <attr name="field_address_switch" format="reference" />
+    <attr name="field_address_void" format="reference" />
+    <attr name="field_passhide" format="reference" />
+    <attr name="field_user" format="reference" />
+    <attr name="field_void" format="reference" />
+    <attr name="fieldpassshow" format="reference" />
+    <attr name="graph_drawerbg" format="reference" />
+    <attr name="graph_header" format="reference" />
+    <attr name="graph_mainbg" format="reference" />
+    <attr name="ic_btn_x" format="reference" />
+    <attr name="ic_bus_off" format="reference" />
+    <attr name="ic_bus_on" format="reference" />
+    <attr name="ic_car_off" format="reference" />
+    <attr name="ic_car_on" format="reference" />
+    <attr name="ic_cycle_off" format="reference" />
+    <attr name="ic_cycle_on" format="reference" />
+    <attr name="ic_dialog_confirm" format="reference" />
+    <attr name="ic_dialog_fav_off" format="reference" />
+    <attr name="ic_dialog_fav_on" format="reference" />
+    <attr name="ic_dialog_fav_state1" format="reference" />
+    <attr name="ic_dialog_fav_state2" format="reference" />
+    <attr name="ic_dialog_fav_state3" format="reference" />
+    <attr name="ic_dialog_home_on" format="reference" />
+    <attr name="ic_dialog_orangebar" format="reference" />
+    <attr name="ic_dialog_user" format="reference" />
+    <attr name="ic_dialog_user_1" format="reference" />
+    <attr name="ic_dialog_work_on" format="reference" />
+    <attr name="ic_menu_groups" format="reference" />
+    <attr name="ic_menu_mefeedb" format="reference" />
+    <attr name="ic_menu_mypoints" format="reference" />
+    <attr name="ic_menu_profile" format="reference" />
+    <attr name="ic_menu_purch" format="reference" />
+    <attr name="ic_pointer_end" format="reference" />
+    <attr name="ic_pointer_start" format="reference" />
+    <attr name="ic_walk_off" format="reference" />
+    <attr name="ic_walk_on" format="reference" />
+    <attr name="icon_add" format="reference" />
+    <attr name="icon_add_lite" format="reference" />
+    <attr name="icon_exclamation" format="reference" />
+    <attr name="icon_hidepass" format="reference" />
+    <attr name="icon_info" format="reference" />
+    <attr name="icon_magni" format="reference" />
+    <attr name="icon_map" format="reference" />
+    <attr name="icon_next" format="reference" />
+    <attr name="icon_shopcart" format="reference" />
+    <attr name="icon_showpass" format="reference" />
+    <attr name="icon_swap" format="reference" />
+    <attr name="icon_trash_blk" format="reference" />
+    <attr name="icon_trash_gray" format="reference" />
+    <attr name="icon_trash_wht" format="reference" />
+    <attr name="icon_trnsp_moto1" format="reference" />
+    <attr name="icon_trnsp_moto2" format="reference" />
+    <attr name="pointer_off" format="reference" />
+    <attr name="pointer_on" format="reference" />
+    <attr name="pop_shortbox" format="reference" />
+    <attr name="popup0_void" format="reference" />
+    <attr name="popup1" format="reference" />
     <attr name="favoritesAddIconDimension" format="reference|dimension" />
     <attr name="favoriteIconDimension" format="reference|dimension" />
     <attr name="favoriteIconLargeDimension" format="reference|dimension" />
-    <attr name="fieldUserIcon" format="reference" />
-    <attr name="fieldPassIcon" format="reference" />
-    <attr name="btnWideIcon" format="reference" />
-    <attr name="titleSmall" format="reference|dimension" />
-    <attr name="titleMedium" format="reference|dimension" />
+    <attr name="titleΧΧΧLarge" format="reference|dimension" />
+    <attr name="titleΧΧLarge" format="reference|dimension" />
+    <attr name="titleΧLarge" format="reference|dimension" />
     <attr name="titleLarge" format="reference|dimension" />
-    <attr name="textSmall" format="reference|dimension" />
-    <attr name="textMedium" format="reference|dimension" />
+    <attr name="titleMedium" format="reference|dimension" />
+    <attr name="titleSmall" format="reference|dimension" />
+    <attr name="titleΧSmall" format="reference|dimension" />
+    <attr name="textΧΧΧLarge" format="reference|dimension" />
+    <attr name="textΧΧLarge" format="reference|dimension" />
+    <attr name="textΧLarge" format="reference|dimension" />
     <attr name="textLarge" format="reference|dimension" />
-    <attr name="btnTextSmall" format="reference|dimension" />
-    <attr name="btnTextMedium" format="reference|dimension" />
+    <attr name="textMedium" format="reference|dimension" />
+    <attr name="textSmall" format="reference|dimension" />
+    <attr name="textΧSmall" format="reference|dimension" />
+    <attr name="btnTextΧΧΧLarge" format="reference|dimension" />
+    <attr name="btnTextΧΧLarge" format="reference|dimension" />
+    <attr name="btnTextΧLarge" format="reference|dimension" />
     <attr name="btnTextLarge" format="reference|dimension" />
+    <attr name="btnTextMedium" format="reference|dimension" />
+    <attr name="btnTextSmall" format="reference|dimension" />
+    <attr name="btnTextΧSmall" format="reference|dimension" />
     <attr name="mainColor" format="reference" />
     <attr name="btnMainColor" format="reference" />
 </resources>

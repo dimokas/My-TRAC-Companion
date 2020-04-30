@@ -63,11 +63,12 @@ public class AddToFavoritesDialogFragment extends DialogFragment {
                 int userCategory = sharedPrefs.getInt("userCategory", 0);
 
                 if (userCategory == Constants.LOW_VISION_USER) {
-                    favStateImg.setBackgroundResource(R.drawable.ic_dialog_fav_state2_low_vision);
+                    favStateImg.setBackgroundResource(R.drawable.ic_dialog_fav_state2_lowvis);
                 } else if (userCategory == Constants.DEFAULT_USER) {
                     favStateImg.setBackgroundResource(R.drawable.ic_dialog_fav_state2);
+                } else if (userCategory == Constants.HIGH_CONTRAST_USER) {
+                    favStateImg.setBackgroundResource(R.drawable.ic_dialog_fav_state2_hicontr);
                 }
-
                 addBtn.setBackgroundResource(R.drawable.btn_grey_wide);
                 addBtn.setText(getResources().getString(R.string.location_added_to_favorites));
                 addBtn.setContentDescription(getResources().getString(R.string.location_added_to_favorites));

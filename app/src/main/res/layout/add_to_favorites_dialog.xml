@@ -44,7 +44,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:background="?dialogFavState1Icon"
+        android:background="?ic_dialog_fav_state1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addFavoriteTv" />
@@ -95,7 +95,7 @@
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="18dp"
-        android:background="?btnWideIcon"
+        android:background="?btn_short2"
         android:text="@string/add"
         android:textAllCaps="false"
         android:textColor="@android:color/white"

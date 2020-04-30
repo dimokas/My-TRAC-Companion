@@ -19,6 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.EditText;
 
 import com.example.mytrac.Constants;
 import com.example.mytrac.MainActivity;
@@ -40,6 +41,10 @@ import static android.content.Context.MODE_PRIVATE;
 public class LoginCredentialsDialogFragment extends DialogFragment {
 
     private Button loginCredentialsBtn;
+    public EditText usernameEditText;
+    public EditText passwordEditText;
+    public String uname = "";
+    public String pass = "";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -59,9 +64,13 @@ public class LoginCredentialsDialogFragment extends DialogFragment {
         }
 
         loginCredentialsBtn = (Button) v.findViewById(R.id.loginCredentialsBtn);
+        usernameEditText = (EditText) v.findViewById(R.id.loginUsername);
+        passwordEditText = (EditText) v.findViewById(R.id.loginPassword);
         loginCredentialsBtn.setOnClickListener(new View.OnClickListener() { // login by entering credentials, to be implemented later
             @Override
             public void onClick(View v) {
+                uname = usernameEditText.getText().toString();
+                pass = passwordEditText.getText().toString();
                 RestTask restTask = new RestTask(MainActivity.mainActivity, Constants.LOGIN_URL);
                 restTask.execute();
             }
@@ -152,7 +161,7 @@ public class LoginCredentialsDialogFragment extends DialogFragment {
 
         @Override
         protected void onPostExecute(Hashtable result) {
-            if (MainActivity.mainActivity.uID!=null && (MainActivity.mainActivity.userCategory == Constants.DEFAULT_USER || MainActivity.mainActivity.userCategory == Constants.LOW_VISION_USER)) {
+            if (MainActivity.mainActivity.uID!=null && (MainActivity.mainActivity.userCategory == Constants.DEFAULT_USER || MainActivity.mainActivity.userCategory == Constants.LOW_VISION_USER || MainActivity.mainActivity.userCategory == Constants.HIGH_CONTRAST_USER)) {
                 dismiss();
                 Constants.theme_selected = MainActivity.mainActivity.userCategory;
                 MainActivity.mainActivity.recreate();
@@ -164,8 +173,8 @@ public class LoginCredentialsDialogFragment extends DialogFragment {
         public String getJSON(String url) {
             HttpURLConnection conn = null;
             try {
-                String username = "test";
-                String password = "test";
+                String username = uname;
+                String password = pass;
                 HashMap<String, String> mapData = new HashMap<String, String>();
                 mapData.put("username",username);
                 mapData.put("password",password);
